@@ -1,0 +1,33 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid blue;
+    max-width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+h1 {
+    color:blue;
+    text-align: center;
+}
+h2 {
+    color:darkred;
+}
+ul {
+    color: green;
+}
+strong {
+    color:red;
+}
+em {
+    color:blue;
+}
+a:link{
+    color:blue
+}
+a:visited {
+    color: red
+}
+a:hover, a:active {
+    color:green
+}
