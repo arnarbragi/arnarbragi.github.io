@@ -1,2 +1,2 @@
 # arnarbragi.github.io
-[Verkefni 1](Verkefn-1)
+[Verkefni 1](Verkefni-1)
