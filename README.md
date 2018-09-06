@@ -1,19 +1,16 @@
-# BOX modelið
+# VEFÞ1VG-H2-2018H
 
-### Markmið:
-Nemendur eiga að öðlast skilning á eiginleikum HTML taga og hvaða áhrif _display:_ eigindið hefur á uppbyggingu þeirra.
+### Verkefni
 
-### Verkefnalýsing
-* **Ýtarleg verkefnalýsing er í INNU/VEFÞVG1** 
+* [Verkefnalýsing 1 - HTML & CSS](Verkefni-1/README.md)
+* [Verkefnalýsing 2 - Box módelið](Verkefni-2/README.md)
+* [Verkefnalýsing 3 - Skipulag](Verkefni-3/README.md)
+* [Verkefnalýsing 4 - Uppsetning](Verkefni-4/README.md)
+* [Verkefnalýsing 5 - Myndvinnsla](Verkefni-5/README.md)
+* [Verkefnalýsing 6 - Sveigjanleg vefhönnun](Verkefni-6/README.md) 
 
-### Verkefnaskil
-Nemendur skila verkefninu hér í verkefnamöppu 2. Kennari gefur einkunn í Innu. Skilafrestur er tiltekinn í Námsáætlun og í INNU verkefni 2.
+Öll verkefni sem lögð eru fyrir í áfanganum VEFÞ1VG **á að skila hér** í geymsluna (_Repository_) í viðeigandi verkefnamöppu. 
 
-### Námsmat 15% af heildareinkunn
-* 3% Verkefni 2.1	Box Modelið  
-* 4% Verkefni 2.2	Display:block, inline & inline-block  
-* 4% Verkefni 2.3	Float  	
-* 4% Verkefni 2.4	Flexbox	 
+Yfirferð verkefna miðast við stöðu verkefna á skiladegi. Ef unnið er í verkefnum eftir skiladag þá þarf að útskýra ástæður þess í kommentakerfinu. **Ekki** er farið yfir verkefni sem skilað er í INNU. 
 
-### Einkunn verður birt í Innu
-Athugasemdir og leiðbeiningar verða settar í málefni (_issues_) í viðkomandi verkefni.
+**Skilafrestur** á verkefnum kemur fram í [námsáætlun](https://github.com/vefgrunnur/VEF1VG-H2-2018H/tree/master/N%C3%A1ms%C3%A1%C3%A6tlun%20VEF%C3%9E1VG) og Innu. 
