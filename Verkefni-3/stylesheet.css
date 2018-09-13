@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+header {
+    background-color: royalblue;
+}
+header h1 {
+    text-align: center;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section {
+    padding: 1em;
+    border: 1px solid darkslategrey;
+}
+.serif {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.monotype {
+    font-family: 'Courier New', Courier, monospace;
+}
