@@ -16,6 +16,10 @@ header h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.col2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 section {
     padding: 1em;
     border: 1px solid darkslategrey;
@@ -25,4 +29,32 @@ section {
 }
 .monotype {
     font-family: 'Courier New', Courier, monospace;
+}
+.sansSerif {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.palaTino {
+    font-family: 'Palatino linotype, "Book Antiqua", Palatino, serif';
+}
+.fyrirsogn {
+    background-color: lightblue;
+}
+.fyrirsogn h1{
+    font-family: 'Impact, Haettenschweiler, "Arial Black", sans-serif';
+    font-size: 5em;
+    text-align: center
+}
+.comic {
+    font-family: "Comic Sans MS", sans-serif;
+}
+.arialBlack {
+    font-family: "Arial Black", "Gadget", sans-serif;
+}
+.raudur {
+    color: red;
+}
+.small {
+    font-size: 0.6em;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
 }
