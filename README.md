@@ -4,7 +4,7 @@
 
 * [Verkefni 1 - HTML & CSS](Verkefni-1/index.html)
 * [Verkefni 2 - Box módelið](Verkefni-2/index.html)
-* [Verkefni 3 - Skipulag](Verkefni-3/grid.html)
+* [Verkefni 3 - Skipulag](Verkefni-3/index.html)
 * [Verkefnalýsing 4 - Uppsetning](Verkefni-4/README.md)
 * [Verkefnalýsing 5 - Myndvinnsla](Verkefni-5/README.md)
 * [Verkefnalýsing 6 - Sveigjanleg vefhönnun](Verkefni-6/README.md) 
