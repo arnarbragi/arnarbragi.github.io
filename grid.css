@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+/*    border: 1px solid red;*/
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "topnav"
+        "main"
+        "footer";
+}
+header {
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+/*inn í .content*/
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+    background-color: darkgrey;
+    padding: 1em;
+}
+.midja {
+    grid-area: midja;
+    background-color: lightgrey;
+}
+.vinstri {
+    grid-area: vinstri;
+    background-color: grey;
+}
+.haegri {
+    grid-area: haegri;
+    background-color: grey;
+}
+.content {
+    display: grid;
+    grid-gap:0;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas: "vinstri midja haegri";
+}
+p, h4 {
+    padding: 0.5em 1em;
+}
+h4 {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+}
+header {
+    text-align: center;
+    background-color: grey;
+    padding: 1em;
+}
+footer {
+    background-color: darkgray;
+    text-align: center;
+}
+.topmenu a {
+    text-decoration: none;
+    color: brown;
+    padding: .5em;
+}
+.topmenu a:hover, .topmenu a:active {
+    background-color: brown;
+    color: blue;
+}
