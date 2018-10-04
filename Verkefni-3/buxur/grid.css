@@ -5,18 +5,18 @@
 body {
     max-width: 60em;
     margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Bitter', serif;
     line-height: 1.5;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "header"
-        "topnav"
-        "main"
-        "footer";
+        "topnav header"
+        "main main"
+        "footer footer";
 }
 header {
     grid-area: header;
+    font-family: 'Righteous', cursive;
 }
 .topnav {
     grid-area: topnav;
@@ -30,32 +30,32 @@ footer {
 /*inn í .content*/
 .topmenu {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .topnav {
-    background-color: darkgrey;
+    background-color: rgb(187, 255, 0);
     padding: 1em;
 }
 .midja {
     grid-area: midja;
-    background-color: lightgrey;
+    background-color: rgb(255, 187, 0);
 }
 .vinstri {
     grid-area: vinstri;
-    background-color: grey;
+    background-color: rgb(245, 160, 30);
 }
 .haegri {
     grid-area: haegri;
-    background-color: grey;
+    background-color: rgb(187, 255, 0);
 }
 .content {
     display: grid;
     grid-gap:0;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-areas: "vinstri midja haegri";
 }
 p, h4 {
@@ -69,19 +69,19 @@ p {
 }
 header {
     text-align: center;
-    background-color: grey;
+    background-color: rgb(255, 208, 0);
     padding: 1em;
 }
 footer {
-    background-color: darkgray;
+    background-color: rgb(200, 255, 0);
     text-align: center;
 }
 .topmenu a {
     text-decoration: none;
-    color: brown;
+    color: rgb(255, 0, 0);
     padding: .5em;
 }
 .topmenu a:hover, .topmenu a:active {
-    background-color: brown;
-    color: blue;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 200);
 }
