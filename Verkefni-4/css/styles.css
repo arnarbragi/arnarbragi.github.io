@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(1, 95, 24);
+    max-width: 60em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "topnav"
+        "main"
+        "footer"
+        "sign";
+}
+.header {
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+.main {
+    grid-area: main;
+    background-color: rgb(42, 182, 0);
+}
+.footer {
+    grid-area: footer;
+}
+.sign {
+    grid-area: sign;
+    text-align: center;
+}
