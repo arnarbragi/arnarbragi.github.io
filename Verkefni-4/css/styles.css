@@ -1,33 +1,39 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box }
 body {
-    background-color: rgb(1, 95, 24);
-    max-width: 60em;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "header"
-        "topnav"
-        "main"
-        "footer"
-        "sign";
+    background-color: #0064CE;
+    background: linear-gradient(to bottom, #0064CE 87%, #001933);
+    color: #444;
+    font: 400 1em/1.5 "Open sans", sans-serif;/*samsett skipun: size weight/height, font*/
 }
-.header {
-    grid-area: header;
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right*/
+    padding: 0;
+}
+.beige {
+    background-image: linear-gradient(to bottom, #F7D37E, #f6f1d3);
+    padding: 1em;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+header h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 2.05em 0 1em 0;
 }
 .topnav {
-    grid-area: topnav;
+    margin-top: 6em;
 }
-.main {
-    grid-area: main;
-    background-color: rgb(42, 182, 0);
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
 }
-.footer {
-    grid-area: footer;
-}
-.sign {
-    grid-area: sign;
-    text-align: center;
+.verkefni {
+    text-align: right;
+    color: #F7D37E;
 }
