@@ -10,6 +10,20 @@ body {
     margin: 0 auto; /* top+bottom og left+right*/
     padding: 0;
 }
+/*grid*/
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+/*--------*/
 .beige {
     background-image: linear-gradient(to bottom, #F7D37E, #f6f1d3);
     padding: 1em;
@@ -36,4 +50,26 @@ header h1 {
 .verkefni {
     text-align: right;
     color: #F7D37E;
+}
+.copy {
+    color: #fff;
+    text-align: center;
+}
+blockquote {
+    background-color: rgba(255,255,255,0.5);
+    padding: 1em;
+}
+footer {
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:visited {
+    color: antiquewhite;
+}
+footer li {
+    list-style-type: none;
+    padding-bottom: .25em;
 }
