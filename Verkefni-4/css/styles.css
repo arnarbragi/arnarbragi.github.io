@@ -24,28 +24,38 @@ body {
     grid-template-columns: repeat(4,1fr);
 }
 /*--------*/
-.beige {
+.beige, .beige2 {
     background-image: linear-gradient(to bottom, #F7D37E, #f6f1d3);
-    padding: 1em;
+    padding: 2em;
+}
+.beige2 {
+    height: 100vh;
+    padding-top: 2em;
 }
 header {
     display: grid;
     grid-template-columns: 1fr 1fr; 
 }
+h1 {
+    font-weight: 300;
+}
 header h1 {
     color: white;
-    font-weight: 300;
     font-size: 3em;
     text-transform: uppercase;
     margin: 2.05em 0 1em 0;
 }
 .topnav {
-    margin-top: 6em;
+    margin-top: 5.8em;
+    display: flex;
+    justify-content: flex-end;
 }
 .topnav a {
+    display: block;
     color: #fff;
     text-decoration: none;
-    padding: 0 1em;
+    padding: 0 0 0 2em;
+    text-transform: uppercase;
 }
 .verkefni {
     text-align: right;
@@ -67,9 +77,23 @@ footer a {
     text-decoration: none;
 }
 footer a:visited {
-    color: antiquewhite;
+    color: wheat;
 }
 footer li {
     list-style-type: none;
     padding-bottom: .25em;
+}
+.innermenu {
+    background-color: #0064CE;
+    display: flex;
+    justify-content: center;
+}
+.innermenu a {
+    color: #fff;
+    text-decoration: none;
+    padding: .4em 1.2em;
+    border-right: 1px solid #fff;
+}
+.innermenu a:last-child {
+    border: none
 }
