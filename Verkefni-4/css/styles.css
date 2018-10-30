@@ -97,3 +97,40 @@ footer li {
 .innermenu a:last-child {
     border: none
 }
+.innermenu a:hover, .innermenu a:active {
+    color: #0064CE;
+    background-color: #F7D37E;
+}
+.topbutt {
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #0064CE;
+    font-size: 2.5em;
+    display: block;
+    position: fixed; /* relative, absolute */
+    bottom: 2em;
+    right: 2em;
+    width: 1.5em;
+    padding: 0.2em;
+}
+.toppbutt:active, .topbutt:hover {
+    background-color: #0064CE;
+    color: #fff;
+}
+.pR-1em {
+    padding-right: 1em;
+}
+.pL-2em {
+    padding-left: 2em;
+}
+a {
+    color: #0064ce;
+}
+blockquote a {
+    line-height: 1.8;
+}
+blockquote ul {
+    list-style-type: none;
+}
