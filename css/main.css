@@ -138,9 +138,25 @@ img, video {
     .svg-opt {
         width: 15%;
     }
+    .verkefni {
+        display: none;
+    }
 }
 @media screen and (min-width: 37.5em) {
-    
+    .kort {
+        width: 300px;
+        height: auto;
+    }
+    .kvikmynd {
+        width: 300px;
+        height: auto;
+    }
+    .svg-opt {
+        width: 15%;
+    }
+    .verkefni {
+        display: none;
+    }
 }
 @media screen and (min-width: 48em) {  
     
