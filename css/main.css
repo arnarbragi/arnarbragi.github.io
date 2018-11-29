@@ -11,15 +11,6 @@ body {
     padding: 0;
 }
 /*grid*/
-.col-2 {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-gap: 2em;
-}
-.col-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 .col-4 {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -27,15 +18,10 @@ body {
 /*--------*/
 .color, .color2 {
     background-image: linear-gradient(to bottom, rgb(172, 172, 172), #fff);
-    padding: 2em;
 }
 .color2 {
     height: 100vh;
     padding-top: 2em;
-}
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
 }
 h1 {
     font-weight: 300;
@@ -44,18 +30,11 @@ header h1 {
     color: white;
     font-size: 3em;
     text-transform: uppercase;
-    margin: 2.05em 0 1em 0;
-}
-.topnav {
-    margin-top: 5.8em;
-    display: flex;
-    justify-content: flex-end;
 }
 .topnav a {
     display: block;
     color: #fff;
     text-decoration: none;
-    padding: 0 0 0 2em;
     text-transform: uppercase;
 }
 .verkefni {
@@ -141,4 +120,73 @@ blockquote ul {
 }
 .img {
     padding-top: 5em;
+    float: right;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 30em) {
+    .kort {
+        width: 300px;
+        height: auto;
+    }
+    .kvikmynd {
+        width: 300px;
+        height: auto;
+    }
+    .svg-opt {
+        width: 15%;
+    }
+}
+@media screen and (min-width: 37.5em) {
+    
+}
+@media screen and (min-width: 48em) {  
+    
+}
+@media screen and (min-width: 60em) {
+    .col-2 {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2em;
+    } 
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .kort {
+        width: 600px;
+        height: 450px;
+    }
+    .kvikmynd {
+        width: 420px;
+        height: 315px;
+    }
+    .color, .color2 {
+        background-image: linear-gradient(to bottom, rgb(172, 172, 172), #fff);
+        padding: 2em;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+    .topnav {
+        margin-top: 5.8em;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .topnav a {
+        padding: 0 0 0 2em;
+    }
+    header h1 {
+        margin: 2.05em 0 1em 0;
+    }
+    .svg-opt {
+        width: 50px; 
+        height: 55px;
+    }
+}
+@media screen and (min-width: 80em) { 
+
 }
