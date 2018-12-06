@@ -35,7 +35,7 @@ header h1 {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 0.5em;
+    margin-left: 1em;
 }
 .copy {
     color: #fff;
@@ -102,6 +102,9 @@ footer li {
 .pL-2em {
     padding-left: 2em;
 }
+.pad-bot {
+    padding-bottom: 2em;
+}
 a {
     color: #0064ce;
 }
@@ -142,8 +145,8 @@ img, video {
         width: 250px
     }
     .topnav {
-        display: inline-block;
-        position: relative;
+        display: flex;
+        justify-content: center;
         text-align: center;
     }
     header h1 {
@@ -204,8 +207,8 @@ img, video {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .kort {
-        width: 600px;
-        height: 450px;
+        width: 500px;
+        height: 375px;
     }
     .kvikmynd {
         width: 420px;
